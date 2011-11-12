@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'ceie'
+
+puts "\n" + "*" * 80  + "\n" +
+     " " * 20 + "Algoritmo Genetico" + " " * 20 + "\n" +
+     "*" * 80 + "\n"
+
+genetica = Ceie::Genetic.new(40,26,50,1)
+genetica.resolver
+
+# Mejores parametros 
+# 1 signo- 9 para numero - 16 para mantisa = 26 bits 
+# estos parametros cambiarlos en genetic.rb
+# tamanio para seleccion 20

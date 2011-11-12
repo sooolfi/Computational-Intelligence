@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'ceie'
+
+puts "\n" + "*" * 80  + "\n" +
+     " " * 20 + "Algoritmo Genetico 2-D" + " " * 20 + "\n" +
+     "*" * 80 + "\n"
+
+genetica = Ceie::Genetic.new(40,40,1000,3)
+genetica.resolver
+
+#acepta numero , tamnaio = 5
+

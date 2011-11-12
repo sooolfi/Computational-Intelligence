@@ -1,0 +1,16 @@
+
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'ceie'
+
+puts "\n" + "*" * 80  + "\n" +
+     " " * 20 + "Enjambre de Particulas" + " " * 20 + "\n" +
+     "*" * 80 + "\n"
+
+
+rango = [[0.0,20.0]]
+enjambre = Ceie::Enjambre.new(20,rango,10,2,1)
+enjambre.resolver
+
+

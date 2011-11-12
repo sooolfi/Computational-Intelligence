@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'ceie'
+
+puts "\n" + "*" * 80  + "\n" +
+     " " * 20 + "Algoritmo Genetico + PMC" + " " * 20 + "\n" +
+     "*" * 80 + "\n"
+
+
+or_path = 'clouds.csv'
+csv_tabla = Perceptor::Csv.new(or_path)
+csv_matrix = csv_tabla.matrix
+csv_matrix.shuffle!
+
+enjambrePMC = Ceie::EnjambrePMC.new(10, 30,csv_matrix,[4,3,1])
+enjambrePMC.resolver
