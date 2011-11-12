@@ -1,0 +1,13 @@
+Intelligence Computational
+
+1 - Perceptron Simple
+
+para correr el programa:
+  - posicionarse dentro de la carpeta '1-perceptron-simple-multicapa'
+  - correr el comando  > ruby -I lib/ bin/runner
+
+2 - RBF SOM
+
+para correr el programa:
+  - posicionarse dentro de la carpeta '2-RBF-SOM'
+  - correr el comando  > ruby -I lib/ bin/runner
