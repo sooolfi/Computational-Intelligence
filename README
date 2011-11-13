@@ -10,4 +10,17 @@ para correr el programa:
 
 para correr el programa:
   - posicionarse dentro de la carpeta '2-RBF-SOM'
-  - correr el comando  > ruby -I lib/ bin/runner
+  - correr el comando  > ruby -I lib/ bin/1ejercicio  ....
+
+	
+3 - Sistemas Borrosos
+
+para correr el programa:
+  - posicionarse dentro de la carpeta '3-sistemas-borrosos'
+  - correr el comando  > ruby -I lib/ bin/1ejercicio
+
+4 - Computacion evolutiva Inteligencia de enjambre
+
+para correr el programa:
+  - posicionarse dentro de la carpeta '3-computacion-Evolutiva-Inteligencia-Enjambre'
+  - correr el comando  > ruby -I lib/ bin/1ejercicio
